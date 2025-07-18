@@ -1,0 +1,46 @@
+# Express.js RESTful API Assignment
+
+## How to Run the Server
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd <repo-folder>
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Create a .env file (see .env.example) and run the server:
+
+bash
+Copy
+Edit
+npm start
+API Endpoints
+GET /api/products
+Get all products
+Response:
+
+json
+Copy
+Edit
+[
+  {
+    "id": 1,
+    "name": "Product 1",
+    "price": 100
+  }
+]
+GET /api/products/:id
+Get product by ID
+
+POST /api/products
+Create a product
+
+PUT /api/products/:id
+Update a product
+
+DELETE /api/products/:id
+Delete a product
